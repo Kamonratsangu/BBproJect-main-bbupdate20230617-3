@@ -12,7 +12,7 @@ class HomeBody extends StatefulWidget {
 }
 
 class _HomeBodyState extends State<HomeBody> {
-  var titles = <String>['For You', 'Follow'];
+  var titles = <String>['For You', 'Following'];
   var bodys = <Widget>[const ForyouPage(), const FollowPage()];
 
   @override
